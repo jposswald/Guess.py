@@ -1,0 +1,7 @@
+CONFIG:
+  test : False #BOOLEAN. If test is true, it will display the answer first, useful for testing. Default False
+  max_tries : 10 #INT. Number of maximum tries. Default 10
+  infinite_mode : False #BOOLEAN. Allows you to guess indefinitely. Good for learning, but where's the fun? Default False
+  digits : 4 #INT. Number of digits the answer will have. Default 4
+  character_set : "123456" #String. The characters that will constitute the answer. Default "123456"
+  allow_dupes : True #BOOLEAN. Allows you to have duplicates of characters. Default True
